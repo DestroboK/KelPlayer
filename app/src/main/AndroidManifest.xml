@@ -3,6 +3,7 @@
     package="com.example.kelplayer">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
     <application
         android:allowBackup="true"
@@ -13,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KelPlayer">
         <activity
-            android:name=".Reprudictor"
+            android:name=".Reproductor"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
