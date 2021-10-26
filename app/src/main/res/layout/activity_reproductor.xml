@@ -132,7 +132,7 @@
                 android:layout_marginBottom="-4dp"
                 app:avColor="@color/white"
                 app:avDensity="0.5"
-                app:avWidth="44dp"
+                app:avWidth="4dp"
                 app:avSpeed="normal"
                 app:avType="outline" />
         </RelativeLayout>
